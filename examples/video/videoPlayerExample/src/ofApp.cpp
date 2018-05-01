@@ -54,7 +54,6 @@ void ofApp::draw(){
     ofDrawBitmapString("frame: " + ofToString(fingerMovie.getCurrentFrame()) + "/"+ofToString(fingerMovie.getTotalNumFrames()),20,380);
     ofDrawBitmapString("duration: " + ofToString(fingerMovie.getPosition()*fingerMovie.getDuration(),2) + "/"+ofToString(fingerMovie.getDuration(),2),20,400);
     ofDrawBitmapString("speed: " + ofToString(fingerMovie.getSpeed(),2),20,420);
-
     if(fingerMovie.getIsMovieDone()){
         ofSetHexColor(0xFF0000);
         ofDrawBitmapString("end of movie",20,440);

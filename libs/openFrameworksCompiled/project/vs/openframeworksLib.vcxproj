@@ -94,6 +94,10 @@
       <WarningLevel>Level1</WarningLevel>
       <CompileAs>CompileAsCpp</CompileAs>
     </ClCompile>
+    <Lib>
+      <AdditionalLibraryDirectories>C:\Users\BP-TestPC01\Documents\my_libs\openFrameworks\addons\ofxAssimpModelLoader\libs\assimp\lib\vs\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -107,6 +111,10 @@
       <BrowseInformation>false</BrowseInformation>
       <CompileAs>CompileAsCpp</CompileAs>
     </ClCompile>
+    <Lib>
+      <AdditionalLibraryDirectories>C:\Users\BP-TestPC01\Documents\my_libs\openFrameworks\addons\ofxAssimpModelLoader\libs\assimp\lib\vs\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -117,6 +125,10 @@
       <WarningLevel>Level3</WarningLevel>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
+    <Lib>
+      <AdditionalLibraryDirectories>C:\Users\BP-TestPC01\Documents\my_libs\openFrameworks\addons\ofxAssimpModelLoader\libs\assimp\lib\vs\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -127,6 +139,10 @@
       <WarningLevel>Level1</WarningLevel>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
+    <Lib>
+      <AdditionalLibraryDirectories>C:\Users\BP-TestPC01\Documents\my_libs\openFrameworks\addons\ofxAssimpModelLoader\libs\assimp\lib\vs\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\openFrameworks\3d\of3dPrimitives.h" />

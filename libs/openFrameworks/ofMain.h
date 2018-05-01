@@ -1,5 +1,6 @@
 #pragma once
 
+using namespace std;
 //--------------------------
 // utils
 #include "ofConstants.h"
@@ -112,4 +113,3 @@
 #include "ofNode.h"
 
 //--------------------------
-using namespace std;

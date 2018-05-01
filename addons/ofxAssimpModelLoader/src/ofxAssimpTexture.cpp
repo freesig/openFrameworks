@@ -11,22 +11,22 @@
 using namespace std;
 
 ofxAssimpTexture::ofxAssimpTexture() {
-    texturePath = "";
+	texturePath = "";
 }
 
 ofxAssimpTexture::ofxAssimpTexture(ofTexture texture, string texturePath) {
-    this->texture = texture;
-    this->texturePath = texturePath;
+	this->texture = texture;
+	this->texturePath = texturePath;
 }
 
 ofTexture & ofxAssimpTexture::getTextureRef() {
-    return texture;
+	return texture;
 }
 
 string ofxAssimpTexture::getTexturePath() {
-    return texturePath;
+	return texturePath;
 }
 
 bool ofxAssimpTexture::hasTexture() {
-    return texture.isAllocated();
+	return texture.isAllocated();
 }
